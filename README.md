@@ -7,4 +7,5 @@ node2vec: https://towardsdatascience.com/node2vec-embeddings-for-graph-data-32a8
 word2vec: http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
 
 nodes number: from row to coloum 
+
 cls.edgesList.append((i,j+cls.nrow))
