@@ -8,4 +8,4 @@ word2vec: http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-mode
 
 Node number is added from row to coloum ------- cls.edgesList.append((i,j+cls.nrow))
 
-Feature concatenations of protein and drug are in the ProteinFeatures and DrugFeatures.
+Feature concatenations of protein and drug are in the ProteinFeatures and DrugFeatures.(from protein 1-1512, from drug 1-708)
