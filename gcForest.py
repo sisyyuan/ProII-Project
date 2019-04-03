@@ -56,7 +56,7 @@ def get_toy_config():
     ca_config["estimators"] = []
     ca_config["estimators"].append(
             {"n_folds": 5, "type": "XGBClassifier", "n_estimators": 10, "max_depth": 5,
-             "objective": "multi:softprob", "silent": True, "nthread": -1, "learning_rate": 0.1} )
+             "objective": "multi:softprob", "silent": True, "nthread": -1, "learning_rate": 0.1,"num_class":2} )
     ca_config["estimators"].append({"n_folds": 5, "type": "RandomForestClassifier", "n_estimators": 10, "max_depth": None, "n_jobs": -1})
     ca_config["estimators"].append({"n_folds": 5, "type": "ExtraTreesClassifier", "n_estimators": 10, "max_depth": None, "n_jobs": -1})
     ca_config["estimators"].append({"n_folds": 5, "type": "LogisticRegression"})
