@@ -1,5 +1,4 @@
 This is the conserved top predictions for different trainning data sets(from 0.5-5 fold of negative samples of positive samples) 
-The conserved top prediction number is -9571861(16, 49)
 (16, 165)
 (16, 256)
 (16, 322)
