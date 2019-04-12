@@ -13,7 +13,7 @@ input:five *_*.emb.txt
 output:DrugFeature.txt ProteinFeature.txt, which we need to discard the embedding results of disease/se
 
 
-# Trainning dataset on SVM,KNN,Random Forest and gcForest:learningPrediction.py  
+# Trainning dataset on SVM, KNN, Random Forest and gcForest: learningPrediction.py  
 input: DrugFeature.txt ProteinFeature.txt, mat_drug_protein.txt  
 number of positive samples(from mat_drug_protein.txt):1,923  
 number of negative samples:1,068,573  
