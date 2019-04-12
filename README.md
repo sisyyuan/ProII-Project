@@ -18,9 +18,9 @@ input: DrugFeature.txt ProteinFeature.txt, mat_drug_protein.txt
 number of positive samples(from mat_drug_protein.txt):1,923  
 number of negative samples:1,068,573  
 imbalanced dataset: negative sampling  
-Training data set: positive samples and 0.5-5 fold negative samples of positive samples from random sampling
-                   or equal numbers 10 times  
-Training modeling: SVM,KNN,Random Forest and gcForest  
+Training data set: positive samples + sample 0.5-5 fold negative samples of positive samples from random sampling
+                   or sample equal numbers 10 times  
+Training modeling: SVM, KNN, Random Forest and gcForest  
 validation method: 10 fold cross validation  
 output: ./gcForest/0.5-5Negative (or equalSamples)/ROC_*.pdf(for AUROC)  
         output*.txt(for accuracy)  
